@@ -17,9 +17,8 @@ function toogleMode() {
   }
 
   if (html.classList.contains("light")) {
-    img.setAttribute("alt", "Foto do Tulio, com fundo azul");
+    img.setAttribute("alt", "Foto do Tulio, com fundo cinza");
   } else {
-    img.setAttribute("alt", "Foto do Tulio, com fundo laranja");
+    img.setAttribute("alt", "Foto do Tulio, com fundo cinza");
   }
 }
-
